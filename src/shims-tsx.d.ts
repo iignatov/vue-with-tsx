@@ -9,5 +9,11 @@ declare global {
     interface IntrinsicElements {
       [elem: string]: any;
     }
+    // Allows to use HTML attributes on custom components,
+    // see: https://stackoverflow.com/a/53017665
+    // tslint:disable-next-line:interface-over-type-literal
+    type LibraryManagedAttributes<C, P> = {
+      [name: string]: any;
+    };
   }
 }
