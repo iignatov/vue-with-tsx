@@ -1,29 +1,34 @@
 {
   "name": "vue-with-tsx",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "description": "Example Vue app configured with support for TSX and SCSS.",
+  "author": {
+    "name": "Ignat Ignatov",
+    "url": "https://github.com/iignatov"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
-    "vue": "2.5.21",
-    "vue-class-component": "6.3.2",
-    "vue-property-decorator": "7.2.0"
+    "vue": "2.6.10",
+    "vue-class-component": "7.1.0",
+    "vue-property-decorator": "8.2.2"
   },
   "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
-    "@vue/cli-plugin-typescript": "3.2.0",
-    "@vue/cli-service": "3.2.0",
-    "babel-helper-vue-jsx-merge-props": "2.0.3",
-    "babel-loader": "8.0.4",
-    "babel-plugin-syntax-jsx": "6.18.0",
-    "babel-plugin-transform-vue-jsx": "3.7.0",
-    "node-sass": "4.11.0",
-    "sass-loader": "7.1.0",
-    "typescript": "3.2.2",
-    "vue-template-compiler": "2.5.21"
+    "@babel/core": "7.5.5",
+    "@vue/babel-helper-vue-jsx-merge-props": "1.0.0",
+    "@vue/babel-preset-jsx": "1.1.0",
+    "@vue/cli-plugin-typescript": "3.11.0",
+    "@vue/cli-service": "3.11.0",
+    "babel-loader": "8.0.6",
+    "node-sass": "4.12.0",
+    "sass-loader": "8.0.0",
+    "tslint": "5.19.0",
+    "typescript": "3.6.2",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.39.3"
   }
 }
